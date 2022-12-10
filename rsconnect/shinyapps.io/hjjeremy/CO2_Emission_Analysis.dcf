@@ -5,10 +5,10 @@ account: hjjeremy
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7862495
-bundleId: 6619865
+bundleId: 6620833
 url: https://hjjeremy.shinyapps.io/CO2_Emission_Analysis/
-when: 1670671523.19877
-lastSyncTime: 1670671523.19879
+when: 1670698427.7685
+lastSyncTime: 1670698427.76852
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: LICENSE|README.md

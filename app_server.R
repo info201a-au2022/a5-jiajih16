@@ -42,6 +42,7 @@ co2_low <- co2_data_world %>%
     filter(co2 == min(co2, na.rm = T)) %>%
     pull(year)
 co2_low
+
 #highest year of co2 emission
 most_co2 <- co2_data_world %>%
     filter(co2 == max(co2, na.rm = T)) %>%
