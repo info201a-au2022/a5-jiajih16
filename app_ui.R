@@ -43,7 +43,7 @@ ui <- navbarPage(
 
   #tab two shows the visualization of CO2 and Population
     tabPanel(
-      "Plot showing relationship between CO2 and Population",
+      "Interactive Visual",
       sidebarLayout(
         sidebarPanel(
           widget_for_country,

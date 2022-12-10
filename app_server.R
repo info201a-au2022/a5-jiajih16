@@ -10,7 +10,7 @@ library(ggplot2)
 co2_data <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
 
 co2_data_world <- co2_data %>% 
-    filter(country == "World") %>% 
+    filter(country == "World")
 
 co2_1980_2022 <- co2_data %>%
     select(country, year, co2, population) %>%
@@ -51,7 +51,7 @@ most_co2 <- co2_data_world %>%
 
 min_year <- round(min(co2_1980_2022$year, na.rm = T))
 max_year <- round(max(co2_1980_2022$year, na.rm = T))
-total_year <- c(1980, 2022)
+total_year <- c(1980, 2021)
 
 year_range <- c(min(co2_1980_2022$year, na.rm = T),
                 max(co2_1980_2022$year, na.rm = T))
@@ -64,7 +64,6 @@ widget_for_year <- sliderInput(
     min = min_year,
     max = max_year,
     value = total_year,
-    step = 1
     )
 
 widget_for_country <- selectInput(
