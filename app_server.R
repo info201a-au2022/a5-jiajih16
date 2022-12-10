@@ -11,8 +11,6 @@ co2_data <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owi
 
 co2_data_world <- co2_data %>% 
     filter(country == "World") %>% 
-    drop_na()
-View(co2_data_world)
 
 co2_1980_2022 <- co2_data %>%
     select(country, year, co2, population) %>%

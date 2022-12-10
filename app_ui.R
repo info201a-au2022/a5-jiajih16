@@ -1,4 +1,8 @@
 library(shiny)
+library(dplyr)
+library(plotly)
+library(tidyr)
+library(ggplot2)
 
 ui <- navbarPage(
   #tab one introduce the thesis of the analysis
