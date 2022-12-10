@@ -1,0 +1,14 @@
+name: CO2_Emission_Analysis
+title: CO2_Emission_Analysis
+username:
+account: hjjeremy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7862495
+bundleId: 6619685
+url: https://hjjeremy.shinyapps.io/CO2_Emission_Analysis/
+when: 1670666055.47809
+lastSyncTime: 1670666055.4781
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: owid-co2-data
